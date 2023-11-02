@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Noto+Sans+JP:wght@500&family=Noto+Serif+JP:wght@500&family=Roboto:wght@500&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>GOD of RGB </h1>
+        <p>~Don't cry anymore~</p>
+    </header>
+    <main>
+        <div class = "setting-area">
+            <div class="option1">
+                <form class="option-color">
+                    <p>Color to set</p>
+                    <div class ="rad_btns">
+                    <input type="radio" name="colorselect" value="R" checked><span>R</span>
+                    <input type="radio" name="colorselect" value="G"><span>G</span>
+                    <input type="radio" name="colorselect" value="B"><span>B</span>
+                    </div>
+                </form>
+                <form class="option-fes">
+                    <label for="JKfestival">Hold FES</label>
+                    <input type="checkbox" name="JKfestival" unchecked >
+                </form>
+            </div>
+
+            <form class="bar-setting">
+                <p>Take Majority in AIKO</p>
+                <input type="range" name="takemajority" min="0" max="100" value="70" >    
+            </form>            
+            
+            <div class="button-gr">
+                <button id="jang-keng"><span>▶ Next JK</span></button>
+                
+                <form class="bar-setting">
+                    <p>Auto JK speed *stop to apply</p>
+                    <input type="range" name="jk-speed" min="0.5" max="20" value="2" >        
+                </form>
+                <button id="jang-keng-auto"><span>▶ Auto JK [Start/Stop] </span></button>    
+                <span></span>
+                <button id="replay-btn"><span> Replay</span></button>
+                <button id="flush-btn"><span>■ Finish</span></button>
+            </div>
+        </div>
+        <div id="matter-area">
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/matter.js"></script>
+    <script src="js/rgbcolor.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
