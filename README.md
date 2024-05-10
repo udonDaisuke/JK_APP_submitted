@@ -1,5 +1,5 @@
-# ここにタイトルを入れる
-　GOD of RGB ~Dont't cry anymore~
+# GOD of RGB \~Dont't cry anymore\~
+　
 ## DEMO
 
   - デプロイしている場合はURLを記入（任意）
