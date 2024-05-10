@@ -1,8 +1,9 @@
 # GOD of RGB \~Dont't cry anymore\~
+![image](https://github.com/udonDaisuke/JK_APP_submitted/assets/148114452/3903e309-3c7e-4451-860a-6c6a1615b3b8)
 　
-## DEMO
+## DEMO URL
 
-  - デプロイしている場合はURLを記入（任意）
+  [**Github.io**](https://udondaisuke.github.io/JK_APP_submitted/)
 
 ## 紹介と使い方
 
